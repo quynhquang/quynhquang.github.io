@@ -1,0 +1,67 @@
+.navbar a {
+    color: red;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.navbar a:hover {
+    color: black;
+}
+#grad 
+{
+  background-image: linear-gradient(to right, pink, yellow, red, purple,lime,blue);
+}
+.btn:hover {opacity: 0.7;box-shadow: 4px 4px gray}
+
+.dropdown:hover .dropdown-menu {display: block;}
+.full{padding:50px}
+.maudo{	color:red;}
+.mauden{color:black;}
+.mauxanh{color:darkblue;}
+.mautrang{color:white;}
+.chuin{font-weight: bold;}
+.gachchan{text-decoration: underline;}
+.chunghieng{font-style: italic;}
+
+.price {
+  color: red;
+  font-weight: bold;
+  font-size:13px;
+}
+.checked{color:orange;}	
+body{font-family: Arial}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+
+thead{background-color :black;color:white;}
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+hr{border: solid 1px}
+.quangcao{height: 300px}
+@media only screen and (min-width : 320px) and (max-width : 480px) {}
+@media only screen and (min-width : 768px) and (max-width : 1024px) {}
+.text-ellipsis
+{
+    font-weight: bold;
+    color: black;
+    white-space: nowrap; 
+    width: auto; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.btn-wrap-text {
+      white-space: normal !important;
+      word-wrap: break-word !important;
+  }

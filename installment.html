@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Công Nghệ Cao Double Q</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/ihover.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.default.css">
+	<link rel="shortcut icon" type="image/jpg" href="images/logo.jpg">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container-fluid full">
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg bg-danger navbar-dark fixed-top">
+			<a href="index.html" class="navbar-brand"><img src="images\logo.jpg" class="img-fluid" alt="" width="30"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- Links -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link"><i class="fa fa-home"></i> Trang chủ</a></li>
+					<li class="nav-item"><a href="product.html" class="nav-link"><i class="fa fa-desktop"></i> PC Gaming</a></li>
+					<li class="nav-item"><a href="#manhinh" class="nav-link"><i class="fa fa-tv"></i> Màn hình</a></li>
+					<li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-laptop"></i> Laptop</a>
+						<div class="dropdown-menu">
+							<a href="#asus" class="dropdown-item" title="">Asus</a>
+							<a href="#acer" class="dropdown-item" title="">Acer</a>
+							<a href="#msi" class="dropdown-item" title="">MSI</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-headphones"></i> Phụ kiện</a>
+						<div class="dropdown-menu">
+							<a href="#tainghe" class="dropdown-item" href="#" title="">Tai nghe</a>
+							<a href="#chuot" class="dropdown-item"href="#" title="">Chuột</a>
+							<a class="dropdown-item" href="#phim" title="">Bàn phím</a>
+						</div>
+					</li>
+
+					<li class="nav-item"><a href="cart.html" class="nav-link"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
+					<li class="nav-item"><a href="installment.html" class="nav-link"><i class="fa fa-credit-card"></i> Trả góp</a></li>
+					<li class="nav-item"><a href="#lienhe" class="nav-link"><i class="fa fa-map-marker"></i> Liên hệ</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<!--Search,login,register-->
+	<div class="container-fluid mt-5 wow bounceInDown">
+		<div class="row">
+			<div class="col-md-5">
+				<form>
+					<div class="input-group" >
+						<input type="text" class="form-control" placeholder="Nhập tên sản phẩm...">
+						<button class="btn btn-outline-danger" class="form-control"  type="submit"><i class="fa fa-search"></i></button>
+					</div>
+				</form>
+			</div>
+			<div class="col-md-7">
+				<div class="row">
+					<p class="ml-auto"></p>
+					<a href="register.html" class="nav-link"><i class="fa fa-edit"></i> Đăng ký</a>
+					<a href="#" class="nav-link" data-toggle="modal" data-target="#dangnhap"><i class="fa fa-user"></i> Đăng nhập</a>
+					<div class="modal fade" id="dangnhap" role="dialog">
+						<div class="modal-dialog modal-md">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title text-danger">ĐĂNG NHẬP</h5>
+									<button class="close" type="button" data-dismiss="modal">&times;</button>
+								</div>
+								<div class="modal-body">
+									<div class="row">
+										<div class="col-md-12">
+											<form>
+												<div class="input-group w-100">
+													<div class="input-group-prepend">
+														<span class="input-group-text"><i class="fa fa-user"></i></span>
+													</div>
+													<input type="text" class="form-control" placeholder="Tên tài khoản...">
+												</div>
+											</form>
+											<form class="mt-3">
+												<div class="input-group w-100">
+													<div class="input-group-prepend">
+														<span class="input-group-text"><i class="fa fa-lock"></i></span>
+													</div>
+													<input type="text" class="form-control" placeholder="Mật khẩu...">
+												</div>
+											</form><br/>
+												<input type="checkbox" checked="checked" name="remember"> Nhớ thông tin đăng nhập<br/>
+											<button class="btn btn-warning mt-3 w-100" type="button" data-dismiss="modal">Đăng nhập</button><br>
+											<p class="text-center mt-3">HOẶC</p>
+											<div class="row justify-content-center">
+												<div class="col-md-6">
+													<button class="btn btn-primary w-100" type="button" data-dismiss="modal"><i class="fa fa-facebook"></i> Facebook</button>
+												</div>
+												<div class="col-md-6">
+													<button class="btn btn-danger w-100" type="button" data-dismiss="modal"><i class="fa fa-google"></i> Google</button><br>
+												</div>
+											</div>
+											<div class="mt-3"><a href="">Quên mật khẩu? </a>hoặc <a href="Dangky.html">Đăng ký mới</a></div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-3">
+			<div class="col-md-3 mt-3">
+				<a href=""><img src="images\quangcao3.jpg" alt="" class="w-100 h-75"></a>
+			</div>
+			<div class="col-md-6 mt-3 text-center ">
+				<p id="grad" class="text-white" style="font-weight: bold;font-size: 50px;text-align: center">DOUBLE Q</p>
+				<p class="text-danger" style="font-weight: bold;font-size:20">Hotline: 0931328695</p>
+				<p>235 Hoàng Sa, Tân Định, Quận 1, Hồ Chí Minh</p>
+				<div class="row">
+					<div class="col-md-3">
+						<p><a href="#" data-toggle="tooltip" data-placement="top" title="Giao hàng tận nơi!"><i class="mauden fa fa-truck fa-2x"></i></a></p>
+					</div>
+					<div class="col-md-3">
+						<p><a href="#" data-toggle="tooltip" data-placement="top" title="Trả góp 0%"><i class="mauden fa fa-credit-card fa-2x"></i></a></p>
+					</div>
+					<div class="col-md-3">
+						<p><a href="#" data-toggle="tooltip" data-placement="top" title="Hỗ trợ nâng cấp"><i class="mauden fa fa-wrench fa-2x"></i></a></p>
+					</div>
+					<div class="col-md-3">
+						<p><a href="#" data-toggle="tooltip" data-placement="top" title="Quà tặng"><i class="mauden fa fa-gift fa-2x"></i></a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 mt-3">
+				<a href=""><img src="images\quangcao1.jpg" class="w-100 h-75" alt=""></a>
+			</div>
+		</div>
+		<hr>
+	</div>
+
+	<div class="container-fluid mt-3 wow bounceInUp">
+		<div class="row justify-content-center ">
+			<div class="col-md-2">
+				<img src="images\chitietlap1c.jpg" class="w-100 h-100" alt="">
+			</div>
+			<div class="col-md-5">
+				<p class="mt-5">Mua trả góp <a href="">Laptop ASUS TUF Gaming FX504GE-E4138T</a></p>
+				<p>Giá sản phẩm <span class="price">21.390.000 ₫</span></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid mt-3 wow bounceInDown">
+			<p class="chuin mauden text-center">TRẢ GÓP QUA CÔNG TY TÀI CHÍNH</p>
+			<p class="text-center">Duyệt hồ sơ online trong 4 giờ</p>
+			<ul class="nav nav-tabs">
+				<p class="chuin mauden mt-3">Chọn số tháng trả góp: </p>
+				<li class="nav-item"><a href="#6" class="nav-link active" data-toggle="tab" style="color:red">
+					<h5 class="alert text-white bg-danger">6 Tháng</h5></a>
+				</li>
+
+				<li class="nav-item"><a href="#9" class="nav-link" data-toggle="tab" style="color:red">
+					<h5 class="alert text-white bg-danger">9 Tháng</h5></a>
+				</li>
+
+				<li class="nav-item"><a href="#12" class="nav-link" data-toggle="tab" style="color:red">
+					<h5 class="alert text-white bg-danger">12 Tháng</h5></a>
+				</li>
+			</ul>
+			<div class="tab-content">
+				<div id="6" class="tab-pane show active">
+					<div class="row">
+						<div class="col-md-12">
+							<table class="table table-bordered table-hover table-responsive">
+								<tr>
+									<td>Công Ty</td>
+									<td class="text-center"><img src="images\homecredit.jpg" class="w-25 h-25" alt=""></td>
+									<td class="text-center"><img src="images\fecredit.jpg" class="w-25 h-25" alt=""></td>
+									<td class="text-center"><img src="images\aeon.jpg" class="w-25 h-25" alt=""></td>
+								</tr>
+								<tr>
+									<td>Giá sản phẩm</td>
+									<td>21.390.000 ₫</td>
+									<td>21.390.000 ₫</td>
+									<td>21.390.000 ₫</td>
+								</tr>
+								<tr>
+									<td>Trả trước</td>
+									<td>6.417.000 ₫ (30%)</td>
+									<td>4.278.000 ₫ (20%)</td>
+									<td>6.817.000 ₫ (30% + phí hồ sơ 400.000 ₫)</td>
+								</tr>
+								<tr>
+									<td>Lãi suất thực/phẳng</td>
+									<td>0%</td>
+									<td>0.89% / 0.50%</td>
+									<td>0%</td>
+								</tr>
+								<tr>
+									<td>Góp mỗi tháng</td>
+									<td>2.581.000 ₫</td>
+									<td>3.041.500 ₫</td>
+									<td>2.495.500 ₫</td>
+								</tr>
+								<tr>
+									<td>Tổng tiền phải trả</td>
+									<td class="maudo">21.903.000 ₫</td>
+									<td class="maudo">22.527.000 ₫</td>
+									<td class="maudo">21.790.000 ₫</td>
+								</tr>
+								<tr>
+									<td>Chênh lệch với mua trả thẳng</td>
+									<td>513.000 ₫</td>
+									<td>1.137.000 ₫</td>
+									<td>400.000 ₫</td>
+								</tr>
+								<tr>
+									<td>Giấy tờ cần có</td>
+									<td>CMND + Bằng lái xe / hộ khẩu</td>
+									<td>CMND + Bằng lái /Hộ khẩu + Hóa đơn điện</td>
+									<td>CMND + Hộ khẩu + hoá đơn điện + chứng minh thu nhập</td>
+								</tr>
+								<tr class="text-center">
+									<td></td>
+									<td><button class="btn btn-warning">ĐẶT MUA</button></td>
+									<td><button class="btn btn-warning">ĐẶT MUA</button></td>
+									<td><button class="btn btn-warning">ĐẶT MUA</button></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div id="9" class="tab-pane fade">
+					<div class="row">
+						<div class="col-md-12">
+							<table class="table table-bordered table-hover table-responsive">
+								<tr>
+									<td>Công Ty</td>
+									<td class="text-center"><img src="images\homecredit.jpg" class="w-25 h-25" alt=""></td>
+									<td class="text-center"><img src="images\fecredit.jpg" class="w-25 h-25" alt=""></td>
+									<td class="text-center"><img src="images\aeon.jpg" class="w-25 h-25" alt=""></td>
+								</tr>
+								<tr>
+									<td>Giá sản phẩm</td>
+									<td>21.390.000 ₫</td>
+									<td>21.390.000 ₫</td>
+									<td>21.390.000 ₫</td>
+								</tr>
+								<tr>
+									<td>Trả trước</td>
+									<td>8.556.000 ₫ (40%)</td>
+									<td>8.556.000 ₫ (40%)</td>
+									<td>8.956.000 ₫ (40% + phí hồ sơ 400.000₫)</td>
+								</tr>
+								<tr>
+									<td>Lãi suất thực/phẳng</td>
+									<td>3.33% / 1.93%</td>
+									<td>2.92% / 1.68%</td>
+									<td>2.98% / 1.75%</td>
+								</tr>
+								<tr>
+									<td>Góp mỗi tháng</td>
+									<td>1.760.000 ₫</td>
+									<td>1.736.000 ₫</td>
+									<td>1.650.500 ₫</td>
+								</tr>
+								<tr>
+									<td>Tổng tiền phải trả</td>
+									<td class="maudo">24.396.000 ₫</td>
+									<td class="maudo">24.180.000 ₫</td>
+									<td class="maudo">23.810.500 ₫</td>
+								</tr>
+								<tr>
+									<td>Chênh lệch với mua trả thẳng</td>
+									<td>3.006.000 ₫</td>
+									<td>2.790.000 ₫</td>
+									<td>2.420.500 ₫</td>
+								</tr>
+								<tr>
+									<td>Giấy tờ cần có</td>
+									<td>CMND + Bằng lái xe / hộ khẩu</td>
+									<td>CMND + Bằng lái /Hộ khẩu + Hóa đơn điện</td>
+									<td>CMND + Hộ khẩu + hoá đơn điện + chứng minh thu nhập</td>
+								</tr>
+								<tr class="text-center">
+									<td></td>
+									<td><button class="btn btn-warning">ĐẶT MUA</button></td>
+									<td><button class="btn btn-warning">ĐẶT MUA</button></td>
+									<td><button class="btn btn-warning">ĐẶT MUA</button></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div id="12" class="tab-pane fade">
+					<div class="row">
+						<div class="col-md-12">
+							<table class="table table-bordered table-hover table-responsive">
+								<tr>
+									<td>Công Ty</td>
+									<td class="text-center"><img src="images\homecredit.jpg" class="w-25 h-25" alt=""></td>
+									<td class="text-center"><img src="images\fecredit.jpg" class="w-25 h-25" alt=""></td>
+									<td class="text-center"><img src="images\aeon.jpg" class="w-25 h-25" alt=""></td>
+								</tr>
+								<tr>
+									<td>Giá sản phẩm</td>
+									<td>21.390.000 ₫</td>
+									<td>21.390.000 ₫</td>
+									<td>21.390.000 ₫</td>
+								</tr>
+								<tr>
+									<td>Trả trước</td>
+									<td>8.556.000 ₫ (40%)</td>
+									<td>8.556.000 ₫ (40%)</td>
+									<td>8.756.000 ₫ (40% + phí hồ sơ 200.000₫)</td>
+								</tr>
+								<tr>
+									<td>Lãi suất thực/phẳng</td>
+									<td>3.33% / 1.91%</td>
+									<td>2.92% / 1.66%</td>
+									<td>2.97% / 1.51%</td>
+								</tr>
+								<tr>
+									<td>Góp mỗi tháng</td>
+									<td>1.404.500 ₫</td>
+									<td>1.359.000 ₫</td>
+									<td>1.263.000 ₫</td>
+								</tr>
+								<tr>
+									<td>Tổng tiền phải trả</td>
+									<td class="maudo">25.410.000 ₫</td>
+									<td class="maudo">24.864.000 ₫</td>
+									<td class="maudo">23.912.000 ₫</td>
+								</tr>
+								<tr>
+									<td>Chênh lệch với mua trả thẳng</td>
+									<td>4.020.000 ₫</td>
+									<td>3.474.000 ₫</td>
+									<td>2.522.000 ₫</td>
+								</tr>
+								<tr>
+									<td>Giấy tờ cần có</td>
+									<td>CMND + Bằng lái xe / hộ khẩu</td>
+									<td>CMND + Bằng lái /Hộ khẩu + Hóa đơn điện</td>
+									<td>CMND + Hộ khẩu + hoá đơn điện + chứng minh thu nhập</td>
+								</tr>
+								<tr class="text-center">
+									<td></td>
+									<td><button class="btn btn-warning">ĐẶT MUA</button></td>
+									<td><button class="btn btn-warning">ĐẶT MUA</button></td>
+									<td><button class="btn btn-warning">ĐẶT MUA</button></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+					<p><span class="chuin mauden">Lưu ý:</span> Số tiền thực tế có thể lệch đến 10.000đ/tháng</p>
+			</div>
+		<hr>
+	</div>
+</div>
+	<div class="container-fluid w-100 mt-3" id="lienhe">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="jumbotron bg-info">
+					<div class="row">
+						<div class="col-md-4" style="font-size: 13px">
+							<p class="mauden">Thông tin công ty</p>
+							<a class="mauden" href="">Giới thiệu chung</a><br/>
+							<a class="mauden" href="">Tin tức Công ty</a><br/>
+							<a class="mauden" href="">Hướng dẫn mua hàng</a>
+						</div>
+						<div class="col-md-4" style="font-size: 13px">
+							<p class="mauden" class="mauden">Chính sách chung</p>
+							<a class="mauden" href="">Chính sách & quy định chung</a><br/>
+							<a class="mauden" href="">Chính sách bảo trì, bảo hành</a><br/>
+							<a class="mauden" href="">Chính sách bảo mật thông tin</a>
+						</div>
+						<div class="col-md-4" style="font-size: 13px">
+							<p class="mauden">Chính sách chung</p>
+							<a class="mauden" href="">Chính sách giao nhận & lắp đặt</a><br/>
+							<a class="mauden" href="">Quy định và hình thức thanh toán</a><br/>
+							<a class="mauden" href="">Chính sách đổi, trả hàng</a>
+						</div>
+					</div>
+
+					<div class="row mt-5">
+						<div class="col-md-4" style="font-size: 13px">
+							<h4 style="color:red">THÔNG TIN LIÊN HỆ</h4>
+							<p>• Địa chỉ: 235 Hoàng Sa, Tân Định, Quận 1, Hồ Chí Minh</p>
+							<p>• Điện thoại: 1800 6789 (miễn phí) - Bảo hành: nhánh số 9</p>
+							<p>• Email: kinhdoanh@doubleq.com</p>
+							<p>• Hỗ trợ kỹ thuật: hotro@doubleq.com</p>
+							<p>• Giờ làm việc: 8AM - 8PM TỪ THỨ 2 ĐẾN CHỦ NHẬT</p>
+						</div>
+
+						<div class="col-md-4">
+							<h4 style="color:red">Bản đồ đến DOUBLE Q</h4>
+							<iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.8047979721853!2d106.68739498851859!3d10.794517249863386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528d26bff371d%3A0xdca273059ed9b808!2zVHLGsOG7nW5nIENhbyDEkOG6s25nIE5naOG7gSBUUC5IQ00!5e0!3m2!1svi!2s!4v1543572806212" class="w-100 h-100" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+
+						<div class="col-md-4 text-center" style="font-size: 13px">
+							<h4 style="color:red">Tải ứng dụng về điện thoại</h4>
+							<div class="row">
+								<a href=""><img src="images\lienket.jpg" alt="" class="w-50 h-100"></a>
+							</div>					
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script>
+		new WOW().init();
+		$(document).ready(function(){
+   		$('[data-toggle="tooltip"]').tooltip(); });
+		  $('.owl-carousel').owlCarousel({
+		    loop:true,
+		    margin:10,
+		    nav:true,
+		    autoplay:true,
+		    responsive:{
+		        0:{
+		            items:1
+		        },
+		        600:{
+		            items:3
+		        },
+		        1000:{
+		            items:5
+		        }
+		    }
+		})
+	</script>
+</body>
+</html>
