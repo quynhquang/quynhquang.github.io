@@ -65,3 +65,6 @@ hr{border: solid 1px}
       white-space: normal !important;
       word-wrap: break-word !important;
   }
+html {
+  scroll-behavior: smooth;
+}
